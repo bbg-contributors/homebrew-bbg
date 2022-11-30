@@ -1,9 +1,9 @@
 cask "bbg" do
   arch arm: "arm64", intel: "x64"
 
-  version "20221031"
-  sha256 arm:   "17962c7f34c27bb3d00d8b1c95d0e86f47d75a642ad6d3f8885415a288232b8b",
-         intel: "a50edb3aceb8837e28a0a9d992d12d4c15936e57cdd7cad44d2868cfe85d8f5f"
+  version "20221130"
+  sha256 arm:   "66375e87d3ff4fd9f54b373a845eeeb31b3d4cdcc341039f5f686a20eb661e78",
+         intel: "c855ed7f4762c8cf6e8196c0e18c144bfd1261bb0f2980e225b5efa5e7d7784a"
 
   url "https://github.com/bbg-contributors/bbg/releases/download/#{version}/bbg-#{version}-#{arch}.dmg",
       verified: "https://github.com/bbg-contributors/bbg"
