@@ -1,12 +1,12 @@
 cask "bbg" do
   arch arm: "arm64", intel: "x64"
 
-  version "20230219"
-  sha256 arm:   "f216d690fbbfd0b397ee5323fb511aa0423eb8fc3ae98c08bd5e3e5db25db3b9",
-         intel: "7d03bf9fe30b46fdc14fe392697c9bd80bb3855cf52ac27feccd42422d08eeef"
+  version "20230503"
+  sha256 arm:   "f74ca94f35a1e11aa9fda084e098d1b7e1873264cd440942c43a34ac3de2ab48",
+         intel: "47f50a7060aed7b0c23344dfe08186b8ed3b1d56b138337340435c4924a34a0e"
 
   url "https://github.com/bbg-contributors/bbg/releases/download/#{version}/bbg-#{version}-#{arch}.dmg",
-      verified: "https://github.com/bbg-contributors/bbg"
+      verified: "github.com/bbg-contributors/bbg/"
   name "BBG"
   desc "Static blog generator based on Electron Technology"
   homepage "https://bbg.nekomoe.xyz/"
